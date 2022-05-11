@@ -2,14 +2,13 @@
 
 A simple command line tool to generate the go binary module.
 
-### run
 
-### install
-
-#### requirement
+### Requirement
 1. Rust and cargo must be installed.
 
-2. clone the repo and run
+### Install
+
+1. clone the repo and run
 ```
 cargo install --path .
 ```
@@ -18,6 +17,8 @@ this will generate the binary and install in cargo bin path or you can manually 
 ```
 cargo build
 ```
+
+### Run
 
 ```
 gmod my_first_project
