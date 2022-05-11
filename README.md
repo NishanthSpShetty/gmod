@@ -4,6 +4,21 @@ A simple command line tool to generate the go binary module.
 
 ### run
 
+### install
+
+#### requirement
+1. Rust and cargo must be installed.
+
+2. clone the repo and run
+```
+cargo install --path .
+```
+
+this will generate the binary and install in cargo bin path or you can manually copy the binary by building
+```
+cargo build
+```
+
 ```
 gmod my_first_project
 ```
