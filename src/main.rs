@@ -61,7 +61,7 @@ func main(){
 
     //TODO: create a Makefile
     //setup go mob by calling go mod init
-    let mut module = String::from("github.com/NishanthSpShettyShetty/");
+    let mut module = String::from("github.com/NishanthSpShetty/");
     module.push_str(&project_name);
     Command::new("go")
         .args(["mod", "init"])
